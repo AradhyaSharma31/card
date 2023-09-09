@@ -1,0 +1,39 @@
+body {
+  margin: 20px;
+  font-family: fantasy;
+  background-color: #63a46c;
+}
+
+.avatar {
+  width: 200px;
+  margin: 5px;
+}
+
+.card {
+  width: 400px;
+  margin: 200px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 16px;
+  background: #232528;
+  color: #5c6b73;
+  border-bottom: 6px solid #d35269;
+  border-radius: 5px;
+
+  box-shadow: 5px 5px 3px 2px #cabac8;
+
+  /* animation */
+  cursor: pointer;
+  background-image: linear-gradient(to right, #334139, #272932, #334139);
+
+  transition: 0.8s;
+}
+
+.card:hover {
+  background-position: left;
+  transform: scale(1.5);
+  background-image: linear-gradient(to right, #533747, #122c34, #533747);
+  z-index: 2;
+}
